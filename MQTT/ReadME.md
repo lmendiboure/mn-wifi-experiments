@@ -9,3 +9,5 @@ In this example, combining Mininet-Wifi, Sumo and Paho MQTT, each second a vehic
 -> the vanet sumo mqtt file enable to lauch the emulation
 
 Note : This is a basic example ! To provide a working solution both clients and providers should be launched within Mininet Hosts (in this case, vehicles)
+
+Note : the broker adress should be updated depending on the network architecture
