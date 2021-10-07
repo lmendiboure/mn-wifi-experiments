@@ -1,3 +1,3 @@
 # mn-wifi-experiments
 
-Some experiments regarding Mininet-WiFI Application
+Some experiments using the Mininet-WiFI framework
