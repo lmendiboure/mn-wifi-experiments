@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import paho.mqtt.publish as publish
 import sys
 
