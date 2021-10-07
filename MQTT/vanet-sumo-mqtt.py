@@ -1,9 +1,7 @@
 #!/usr/bin/python
 
 """Sample file for SUMO
-
 ***Requirements***:
-
 Kernel version: 5.8+ (due to the 802.11p support)
 sumo 1.5.0 or higher
 sumo-gui"""
@@ -20,7 +18,7 @@ import paho.mqtt.publish as publish
 import time
 
 
-def publish_msg(user,message):
+def publish_msg(message):
     MQTT_SERVER="127.0.0.1"
     MQTT_PATH="test-message-mqtt"
     publish.single(MQTT_PATH,message,hostname=MQTT_SERVER)
@@ -86,7 +84,7 @@ def topology():
         if i == 5000000:
             for car in enumerate(net.cars):
                  time.sleep(1)  
-                 publish_msg(car[0],car[0])
+                 publish_msg(car[0])
             i=0
 
     info("*** Running CLI\n")
