@@ -1,0 +1,9 @@
+{
+   "telemetry":{
+      "data-type":"position",
+      "min-x":2200,
+      "max-x":3200,
+      "min-y":2800,
+      "max-y":3900
+   }
+}
