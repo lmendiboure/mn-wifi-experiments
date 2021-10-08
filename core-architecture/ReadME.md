@@ -1,0 +1,1 @@
+In this folder is proposed a simple implementation of VANET-SUMO with core network integration : Switches interconnecting Access Points, SDN Controller and a Host that could be used as an Edger Server/Broker.
